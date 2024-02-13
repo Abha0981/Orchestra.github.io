@@ -1,0 +1,92 @@
+* {
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.backgroundvideo {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-family: 'Protest Revolution', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Protest Revolution', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.c {
+    background-image: url(images/crash.jpg);
+}
+
+.d {
+    background-image: url(images/snare.jpg);
+}
+
+.e {
+    background-image: url(images/kick.jpg);
+}
+
+.f {
+    background-image: url(images/tom2.jpg);
+}
+
+.g {
+    background-image: url(images/tom2.jpg);
+}
+
+.a {
+    background-image: url(images/tom2.jpg);
+}
+
+.b {
+    background-image: url(images/tom2.jpg);
+
+}
+
+.sets {
+    text-align: center;
+    flex: content;
+}
+
+.drum {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    background-size: 14rem;
+    color: aliceblue;
+    font-size: 4rem;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+footer h4{
+    text-align: center;
+    font-weight: 50;
+    font-family: 'Times New Roman', Times, serif;
+}

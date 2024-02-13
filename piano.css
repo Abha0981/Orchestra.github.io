@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.backgroundbody {
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images_piano/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    animation: change 13s infinite ease-in-out;
+    transition: smooth;
+    display: flex;
+
+
+    flex-direction: column;
+
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    column-gap: 10px;
+
+
+
+}
+
+@keyframes change {
+    0% {
+        background-image: url(images_piano/image11.jpg);
+    }
+
+    20% {
+        background-image: url(images_piano/image3.jpg);
+    }
+
+    30% {
+        background-image: url(images_piano/image10.jpg);
+    }
+
+    40% {
+        background-image: url(images_piano/image9.jpg);
+    }
+
+    60% {
+        background-image: url(images_piano/image5.jpg);
+    }
+
+    70% {
+        background-image: url(images_piano/image1.jpg);
+    }
+
+    80% {
+        background-image: url(images_piano/image6.jpg);
+    }
+
+    100% {
+        background-image: url(images_piano/image8.jpg);
+    }
+
+
+}
+
+.quote h3 {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 13rem;
+    font-size: 2rem;
+    color: honeydew;
+}
+
+.piano {
+    /* height: 10rem;
+    width: 15rem; */
+    /* background-color: aliceblue; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 5rem;
+    margin-top: 7rem;
+
+}
+
+
+.key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+    border-end-end-radius: 5%;
+    border-end-start-radius: 5%;
+}
+
+.white {
+    --width: 80px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border: 1px solid #0000004b;
+}
+
+.white.active {
+    background-color: #e0e0e0;
+}
+
+.black {
+    --width: 50px;
+    background-color: rgba(0, 0, 0, 0.735);
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+}
+
+.black.active {
+    background-color: #181818;
+}
+
+.pressed {
+    background-color: #e0e0e0;
+}

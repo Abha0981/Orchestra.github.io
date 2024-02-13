@@ -21,26 +21,20 @@
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Satisfy&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
 
-    <!-- <header>
+    <div class="background" data-aos="fade-down" data-aos-easing="ease-in-out" ata-aos-offset="400" data-aos-delay="60"
+        data-aos-duration="1000">
         <div class="container">
-            <h4 class="logo">Orchestra</h4>
-        </div>
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>Play Instruments</li>
-            </ul>
-        </nav>
-    </header> -->
-    <div class="background">
-        <div class="container">
-            <h4 class="logo">Orchestra</h4>
+            <h4 class="logo" data-aos="fade-down" data-aos-easing="ease-in-out" ata-aos-offset="600"
+                data-aos-delay="100" data-aos-duration="2000">Orchestra</h4>
 
-            <nav>
+            <nav data-aos="fade-down" data-aos-easing="ease-in-out" ata-aos-offset="600" data-aos-delay="100"
+                data-aos-duration="2000">
                 <ul>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Play">Play Instruments</a></li>
@@ -48,7 +42,8 @@
             </nav>
         </div>
 
-        <div class="quotes">
+        <div class="quotes" data-aos="fade-down" data-aos-easing="ease-in-out" ata-aos-offset="600" data-aos-delay="700"
+            data-aos-duration="2000">
             <h3>Orchestra</h3>
             <h5>Play and Create Your own music</h5>
         </div>
@@ -72,7 +67,9 @@
     </section>
 
     <section id="Play">
-        <div class="play">
+        <div class="play" data-aos="fade-up" data-aos-easing="ease-in-out" ata-aos-offset="400" data-aos-delay="60"
+            data-aos-duration="1000">
+
             <div class="heading">
                 <h3>Play Instruments</h3>
             </div>
@@ -80,25 +77,17 @@
 
                 <button class="btn1 drum"><a href="index2.html"><span class="hidden">Play</span></a></button>
                 <button class="btn2 drum"><a href="index1.html"><span class="hidden">Play</span></a></button>
-
-
-
-
-                <!-- <image src="homeimage/piano1.jpg" class="img1"></image>
-                <image src="homeimage/drum.jpg" class="img2"></image> -->
-
             </div>
             <footer>
                 <h6>Created and Developed by Abha Tiwari</h6>
-
             </footer>
         </div>
     </section>
 
-
-
-
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

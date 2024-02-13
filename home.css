@@ -5,6 +5,9 @@ body {
   height: 100vh;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 header::after {
   content: '';
@@ -201,79 +204,58 @@ span {
   border-radius: 0 55% 0 55% /35%;
   border: 1ps solid white;
   color: aliceblue;
- 
+
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
 
 }
 
 .hidden {
-  opacity: 0; 
-  transition: opacity 0.8s ease; 
+  opacity: 0;
+  transition: opacity 0.8s ease;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
-  color:antiquewhite;
+  color: antiquewhite;
 }
 
-.btn1:hover .hidden{
-  opacity: 1; 
+.btn1:hover .hidden {
+  opacity: 1;
   font-size: 2rem;
-  
-  
+
+
 }
 
-.btn2:hover .hidden{
-  opacity: 1; 
+.btn2:hover .hidden {
+  opacity: 1;
   font-size: 2rem;
 }
 
-.btn1:hover{
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.477),
-  rgba(0, 0, 0, 0.477)),url(homeimage/piano1.jpg);
+.btn1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.477),
+      rgba(0, 0, 0, 0.477)), url(homeimage/piano1.jpg);
 }
 
-.btn2:hover{
-  background-image:  linear-gradient(rgba(0, 0, 0, 0.477),
-  rgba(0, 0, 0, 0.477)),url(homeimage/drum.jpg);
+.btn2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.477),
+      rgba(0, 0, 0, 0.477)), url(homeimage/drum.jpg);
 }
 
 .images {
-
-
   flex: content;
   text-align: center;
-  margin-bottom: 5rem;
-
-
-
+  margin-bottom: 10rem;
 }
 
-
-/* .images {
-  width: 14rem;
-  height: 14rem;
-  display: flex;
-  flex-direction: row;
+footer {
+  color: aliceblue;
   text-align: center;
-  margin-bottom: 5rem;
-  margin-left: 23rem;
-
-
+  font-weight: 50;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-.img1 {
-  border-radius: 0 55% 0 55% /35%;
-}
-
-.img2 {
-  margin-left: 5rem;
-  float: left;
-  border-radius: 0 55% 0 55% /35%;
-} */

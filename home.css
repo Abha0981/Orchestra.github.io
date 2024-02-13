@@ -5,7 +5,8 @@ body {
   height: 100vh;
 
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -258,4 +259,69 @@ footer {
   text-align: center;
   font-weight: 50;
   font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width:1116px) {
+  .aboutpara p {
+
+    font-size: 1rem;
+    text-align: center;
+  }
+
+}
+
+@media (max-width:1029px) {
+  .aboutpara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 5rem;
+  }
+
+  .aboutpara p {
+
+    font-size: 1.13rem;
+    text-align: center;
+  }
+
+  .image {
+    height: 40%;
+    width: 40%;
+    margin-left: 17rem;
+  }
+}
+
+@media (max-width:862px) {
+
+  .image {
+    margin-left: 13rem;
+  }
+}
+
+@media (max-width:750px) {
+  .image {
+
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+  }
+
+  .aboutpara p {
+
+    margin-right: 4rem;
+
+  }
+
+  nav li {
+    margin-right: 1rem;
+  }
+
+  .quotes h3 {
+    font-size: 2rem;
+  }
+
+  .quotes h5 {
+    font-size: 1rem;
+  }
+
 }

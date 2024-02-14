@@ -1,5 +1,6 @@
 * {
     font-family: 'Protest Revolution', sans-serif;
+
 }
 
 .backgroundvideo {
@@ -8,6 +9,7 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+
 }
 
 h1 {
@@ -76,7 +78,8 @@ h2 {
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
 }
-footer{
+
+footer {
     background-color: black;
     color: aliceblue;
     width: 100%;
@@ -85,8 +88,19 @@ footer{
     right: 0;
     z-index: 0;
 }
-footer h4{
+
+footer h4 {
     text-align: center;
     font-weight: 50;
     font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width:1440px) {
+
+    .backgroundvideo {
+
+        width: 90rem;
+        position: absolute;
+
+    }
 }

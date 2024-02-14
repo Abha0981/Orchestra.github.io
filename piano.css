@@ -82,9 +82,7 @@
 }
 
 .piano {
-    /* height: 10rem;
-    width: 15rem; */
-    /* background-color: aliceblue; */
+   
     display: flex;
     text-align: center;
     justify-content: center;
